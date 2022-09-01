@@ -1,0 +1,17 @@
+To do list:
+c4 class
+  board (6x7) ints & accessor method
+  - can check if the four spots add to +4 or -4
+  keep track of turns - int (-+1)
+  method to place a token
+  check for a win / tie
+
+main class
+  create our c4 object
+  print directions
+  game loop:
+    print the board
+    prompt for user input
+    get input and send to place token method
+    call check for win method
+    if winner, ask to play again
